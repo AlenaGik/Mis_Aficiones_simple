@@ -1,0 +1,115 @@
+body{
+    margin: 0px auto;
+    width: 1024px;
+    height: auto;
+}
+
+header{
+    margin: 0px auto;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #cccccc;
+}
+header p{
+    margin-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(100, 98, 98);
+}
+header span{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mis-aficiones{
+   margin: 0px;
+   text-align: right;
+   margin-right: 15px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 2.5em;
+   color: rgb(243, 131, 161);
+}
+main{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contenedor-aficiones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.aficiones{
+width: 100%;
+height: 260px;
+margin: 10px 10px 20px 10px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-radius: 40px 5px;
+box-shadow: 0px 0px 8px rgb(44, 44, 44);
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contenedor-logos-diseño{
+    display: flex;
+    justify-content: space-evenly;  
+}
+h2{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#otras-aficiones{
+display: flex;
+flex-direction:column;
+align-items: center;;
+width: 100%;
+height: 320px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+border-radius: 40px 5px;
+background-color: #cccccc;
+box-shadow: 0px 0px 8px rgb(44, 44, 44);
+}
+#titulo-otras-aficiones{
+ align-self: flex-start;
+ color: rgb(21, 143, 199);
+ margin-left: 100px;
+ margin-bottom: 10px;
+ font-size: 1.8em;
+}
+ 
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contenido-otras-aficiones{
+width: 50%;
+height: 240px;
+display: flex;
+align-items: center;
+text-align: center;
+border-radius: 40px 5px;
+background-color:#eeeeee;
+box-shadow: 0px 0px 8px rgb(44, 44, 44);}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0.9);
+}
